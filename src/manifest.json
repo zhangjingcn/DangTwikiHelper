@@ -1,0 +1,24 @@
+{
+  "name": "TWIKI Helper",
+  "version": "1.0",
+  "icons": { "16": "icon16.ico","32": "icon32.ico" },
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs","http://*/*"
+  ],
+  "page_action": {
+    "default_title": "TWIKI Helper",
+    "default_popup": "popup.html",
+    "default_icon": "icon16.ico"
+  },
+  "content_scripts": [
+  	{
+  		"matches": ["http://twiki.dangdang.com/*"],
+    	"js": ["jquery-1.7.2.min.js","myscript.js"],
+    	"exclude_globs": [  ],  
+      "include_globs": [ "*" ], 
+      "run_at": "document_end"   
+  	}
+  ],
+  "manifest_version": 2
+}

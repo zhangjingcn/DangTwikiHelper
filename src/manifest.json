@@ -12,13 +12,14 @@
     "default_icon": "icon16.ico"
   },
   "content_scripts": [
-  	{
-  		"matches": ["http://twiki.dangdang.com/*"],
-    	"js": ["jquery-1.7.2.min.js","myscript.js"],
-    	"exclude_globs": [  ],  
-      "include_globs": [ "*" ], 
-      "run_at": "document_end"   
-  	}
+    {
+        "matches": ["http://*/*"],
+        "js": ["jquery-1.7.2.min.js","myscript.js"],
+        "css":["basic.css"],
+        "exclude_globs": [  ],  
+        "include_globs": [ "*" ], 
+        "run_at": "document_end"   
+    }
   ],
   "manifest_version": 2
 }

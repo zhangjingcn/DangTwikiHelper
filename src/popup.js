@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 function title1click(e)
 {
-	chrome.tabs.executeScript(null,{code:"inserttitle1();"});
+	chrome.tabs.executeScript(null,{code:"showTitle1();"});
 }
 function title2click(e)
 {

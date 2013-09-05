@@ -1,0 +1,44 @@
+.order_list_pop { position:absolute;border:solid 1px #b6aca2;background:#fff;box-shadow: -2px 2px 3px #ccc;z-index:9999 }
+.order_list_pop .head { height:23px;background:#e2dedb;}
+.order_list_pop .head .title { line-height:23px;font-weight:bold;padding:0 0 0 10px;color:#646464;}
+.order_list_pop .close { position:absolute;right:0;top:0;width:23px;height:23px;background:url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/icon.png) right -168px no-repeat;cursor:pointer;}
+.order_list_pop .body { padding: 20px 18px 15px;color:#808080;}
+.order_list_pop .pic_box {background:url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/icon.png) -149px 0 no-repeat; width:20px;height:20px;float:left;}
+.order_list_pop .yes,.order_list_pop .ono {background:url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/icon.png) -149px 0 no-repeat; width:20px;height:20px;display:inline-block; vertical-align:top;margin-right:10px;}
+.order_list_pop .ono {background:url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/bg_icons.png) -68px -69px no-repeat; }
+.order_list_pop .no { background:url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/bg_icons.png) -68px -69px no-repeat;}
+.order_list_pop .content { float:right;width:340px;line-height:20px;}
+.order_list_pop .t { font-size:14px;line-height:20px;padding-bottom:15px;color:#505050;}
+.order_list_pop .button_box { clear:both;text-align:center;padding-top:15px;}
+.order_list_pop .button_box .btn_or,.order_list_pop .button_box .btn_gr {vertical-align:middle;margin:0 5px;}
+.order_list_pop .aligncenter { text-align:center;padding-top:10px;}
+.order_list_pop label input { vertical-align:middle;padding:0;}
+.order_list_pop .two {text-indent:36px; }
+.order_list_pop .input { padding:10px 0 0 36px;color:#505050;}
+.order_list_pop .label_box { padding:10px 0 0 10px;}
+.order_list_pop .label_box label{ float:left;width:110px;height:20px;}
+.order_list_pop .textarea_box { clear:both;padding-left:10px;}
+.order_list_pop textarea { width:140px;padding:4px;border:solid 1px #c2bfbd;line-height:18px;height:36px;margin:2px 0 0 10px;vertical-align:top;}
+.order_list_pop .explain { line-height:20px;padding:10px 0 30px;}
+.order_list_pop .explain .title { padding:0 0 6px;}
+.order_list_pop .cue { background:url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/bg_icons.png) 0 -1px no-repeat;display:inline-block;height:16px;width:16px;margin-right:6px;vertical-align:middle;}
+.order_list_pop .button_box .red{display:inline-block;vertical-align:middle; }
+.order_list_pop .button_box .cue { margin-left:10px;}
+.order_list_pop .explain_box .button_box { text-align:left;padding-left:95px;}
+.order_list_pop  { }
+.order_list_pop  li { padding:10px 0 0 0;}
+.order_list_pop  a { margin-left:10px;}
+.order_list_pop  .t{ width:80px;text-align:right;font-size:12px;}
+.order_list_pop  .c { float:right;width:300px;}
+.order_list_pop  .text { margin-right:6px;border:solid 1px #c2bfbd;height:18px;line-height:18px;width:250px}
+.order_list_pop  .ct,.order_list_pop  .red { padding-top:4px;}
+.order_list_pop  .red .cue {margin-top:-2px;}
+.order_list_pop  textarea { margin:0;border:solid 1px #c2bfbd;padding:4px;width:250px;height:60px;line-height:20px;}
+.order_list_pop  .amount {text-align:right;display:block;padding:2px 20px 0 0;font-size:11px; }
+.btn_or, .btn_gr, .btn_none { background: url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/icon.png) left -370px repeat-x; border: 0; display: inline-block; height: 23px; line-height: 23px; cursor: pointer; color: #fff; width: auto; overflow: visible; padding: 0 15px; border-radius: 2px;*padding-top:1px;_padding-top:2px; white-space:nowrap;}
+.btn_or { color: #fff!important;}
+.btn_or:hover { text-decoration: none!important; color: #fff!important; }
+.btn_gr { background: url(http://twiki.dangdang.com/twiki/pub/Tech/Zhangjing_projects/icon.png) left -250px; color: #665e56!important; height: 21px; line-height: 21px; border: solid 1px #d1cdca; cursor: pointer; width: auto; overflow: visible;padding-top:0; }
+.btn_gr:hover { text-decoration: none!important; color: #665e56!important; }
+input.btn_gr {height:23px;line-height:23px;_height:21px;line-height:21px; }
+.btn_none { background: #cdcdcd; cursor: default; }
